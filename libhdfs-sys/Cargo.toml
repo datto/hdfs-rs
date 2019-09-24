@@ -1,0 +1,14 @@
+[package]
+name = "libhdfs-sys"
+version = "0.1.0"
+license = "MPL-2.0"
+authors = ["Alex Parrill <aparrill@datto.com>"]
+edition = "2018"
+
+[lib]
+name = "libhdfs_sys"
+path = "lib.rs"
+
+[build-dependencies]
+bindgen = "0.42.3"
+java-locator = "0.1.1"
